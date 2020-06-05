@@ -1,0 +1,98 @@
+<style>
+    td.column,td.columns,th.column,th.columns{padding-top:16px;}
+    .bg-white{background-color:#FFF;}
+    .bg-light-gray{background-color:#F5F5F5;}
+    .bg-blue{background-color: aquamarine;}
+    .bg-dark{background-color:#222;}
+    .bg-light-purple{background-color:#f4ecff;}
+    .bg-purple{background-color:#6c00ff;}
+
+    .black{color:#000;}
+    .dark{color:#222;}
+    .gray{color:#666;}
+
+    .mt-10{margin-top:10px;}
+    .mb-0{margin-bottom:0;}
+    .mb-10{margin-bottom:10px;}
+    .mb-15{margin-bottom:15px;}
+    .mb-20{margin-bottom:20px;}
+
+    .fs-10{font-size:10px;}
+    .fs-11{font-size:11px;}
+    .fs-12{font-size:12px;}
+    .fs-14{font-size:14px;}
+    .fs-16{font-size:16px;}
+
+    a{color:#6c00ff;text-decoration:none}
+    a:active,a:hover{color:#8a36fb}
+    a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited,h3 a,h3 a:visited,h4 a,h4 a:visited,h5 a,h5 a:visited,h6 a,h6 a:visited{color:#6c00ff}
+    table.button table td{text-align:left;color:#fefefe;background:#6c00ff;border:2px solid #6c00ff}
+    table.button:hover table td,table.button:visited table td{background:#8a36fb;color:#fefefe}
+    table.button table td a{color:#fefefe;border:0 solid #6c00ff;border-radius:6px}
+    table.button:active table a,table.button:hover table a,table.button:visited table a{border:0 solid #8a36fb}
+    table.menu td.menu-item a,table.menu th.menu-item a{color:#6c00ff}
+</style>
+<wrapper class="bg-white">
+    <container>
+        <row class="bg-white">
+            <columns>
+                <p class="mb-0 fs-11 black text-center">If you can not properly see this email, please <a href="#" target="_blank">click here</a>.</p>
+            </columns>
+        </row>
+    </container>
+</wrapper>
+<wrapper class="bg-dark">
+    <container>
+        <row class="bg-dark">
+            <columns>
+                <img style="width:60px;" src="../assets/example/logo.png" />
+            </columns>
+        </row>
+    </container>
+</wrapper>
+<wrapper class="bg-light-gray">
+    <container>
+        <row class="bg-white">
+            <columns>
+                <p class="fs-14 dark text-left mb-20">Hello {{ name }},</p>
+                <p class="fs-12 dark text-left mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque ex at ligula tempor cursus. Integer sagittis quam metus, quis scelerisque nisl malesuada id. Nullam nisi mauris, maximus nec ipsum ut, malesuada rhoncus metus. Pellentesque sit amet risus odio. Vivamus tempus faucibus enim, vitae tempus lacus volutpat nec.</p>
+                <p class="fs-12 dark text-left mb-10">Sed a ligula nec urna tempus finibus. Vivamus auctor cursus magna, eu pharetra felis tempor vel. Aliquam varius erat eu porta fermentum. Sed elementum scelerisque nunc, eu iaculis lorem placerat ac. Suspendisse semper ligula aliquet neque vestibulum, a placerat quam consectetur.</p>
+                <p class="fs-12 dark text-left mb-10">Maecenas interdum, enim semper euismod ullamcorper, mi justo varius libero, id ultrices dolor nisi vel orci. Sed nisi urna, finibus nec lectus a, dapibus feugiat diam. Phasellus mauris enim, vulputate gravida volutpat eu, tincidunt ut ligula. Donec in est nec nunc bibendum imperdiet sit amet congue libero.</p>
+            </columns>
+        </row>
+        <row class="bg-light-purple">
+            <columns small="6" large="3">
+                <img class="float-center" src="https://via.placeholder.com/150">
+                <p class="text-center mt-10 fs-12 black">Lorem ipsum dolor</p>
+            </columns>
+            <columns small="6" large="3">
+                <img class="float-center" src="https://via.placeholder.com/150">
+                <p class="text-center mt-10 fs-12 black">Sed a ligula</p>
+            </columns>
+            <columns small="6" large="3">
+                <img class="float-center" src="https://via.placeholder.com/150">
+                <p class="text-center mt-10 fs-12 black">Proin scelerisque ex</p>
+            </columns>
+            <columns small="6" large="3">
+                <img class="float-center" src="https://via.placeholder.com/150">
+                <p class="text-center mt-10 fs-12 black">Donec in est nec nunc</p>
+            </columns>
+        </row>
+        <row class="bg-white">
+            <columns>
+                <p class="fs-12 dark text-left mb-10">Morbi sit amet eleifend sem. Donec ac congue eros. Phasellus tempus ipsum ac malesuada tincidunt. Curabitur tristique, libero eget facilisis tempor, leo tortor sagittis orci, quis consequat tellus velit a nisl.</p>
+                <p class="fs-12 dark text-left mb-20">Aenean sit amet eleifend nibh. Donec molestie sem et mauris facilisis finibus. Duis sagittis feugiat vehicula. Vivamus quis elit turpis. </p>
+                <p class="fs-12 dark text-center mb-10">Cras ullamcorper nibh in metus auctor, vel porttitor justo euismod.</p>
+                <center>
+                    <button href="#">Go!</button>
+                </center>
+            </columns>
+        </row>
+        <spacer class="bg-purple" size="5"></spacer>
+        <row class="bg-light-gray">
+            <columns>
+                <p class="fs-10 gray text-center mb-10">Morbi nec euismod sapien, vitae vulputate tellus. Mauris condimentum orci ut metus ornare ultrices. Mauris ac lorem ut orci congue consequat. Nam auctor tortor ut faucibus cursus. Fusce dapibus metus ut massa ultrices commodo. Maecenas a purus sapien. Ut ornare tristique ex, nec pellentesque dolor vulputate ut.</p>
+            </columns>
+        </row>
+    </container>
+</wrapper>
